@@ -1,0 +1,18 @@
+section {
+  text-align: center;
+  font-family: sans-serif;
+
+  span {
+    font-size: 18px;
+    display: block;
+    margin-top: 50px;
+  }
+
+  div {
+    display: flex;
+    flex-direction: row;
+    width: 350px;
+    margin: 50px auto;
+    justify-content: space-around;
+  }
+}

@@ -3,10 +3,17 @@
 
 <!-- Text Button -->
 <ng-template #text>
-
+  <button type="button"
+          [ngStyle]="buttonConfig.styles"
+          (click)="onTextBtnClick()">
+    {{ buttonConfig.text | uppercase}}
+  </button>
 </ng-template>
 
 <!-- Image Button -->
 <ng-template #image>
-
+  <img alt="image button"
+       [src]="buttonConfig.src"
+       [ngStyle]="buttonConfig.styles"
+       (click)="onImgBtnClick()">
 </ng-template>
