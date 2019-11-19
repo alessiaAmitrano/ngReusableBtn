@@ -1,1 +1,12 @@
-<p>button works!</p>
+<ng-container *ngTemplateOutlet="buttonConfig['text'] ? text : image">
+</ng-container>
+
+<!-- Text Button -->
+<ng-template #text>
+
+</ng-template>
+
+<!-- Image Button -->
+<ng-template #image>
+
+</ng-template>
