@@ -2,10 +2,17 @@
 <section>
   <h1>DIFFERENT BUTTONS, SAME COMPONENT!</h1>
   <span>{{message}}</span>
-  <div>
+  <div class="btns-container">
     <app-button [buttonConfig]="textBtnConfig"
                 (textBtnClickEmt)="onClickEventReceived($event)"></app-button>
     <app-button [buttonConfig]="imgBtnConfig"
                 (imgBtnClickEmt)="onClickEventReceived($event)"></app-button>
+  </div>
+  <div class="copyright">
+    <span>Code by Alessia Amitrano.</span>
+    <span>
+      Icons made by <a href="https://www.flaticon.com/authors/freepik"
+         title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/"
+         title="Flaticon">www.flaticon.com</a></span>
   </div>
 </section>

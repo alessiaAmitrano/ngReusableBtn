@@ -12,11 +12,12 @@ export class AppComponent {
       position: 'relative',
       width: '150px',
       height: '60px',
-      backgroundColor: '#000',
+      backgroundColor: '#f92672',
       color: '#fff',
       fontFamily: 'sans-serif',
       fontSize: '20px',
-      borderRadius: '10px'
+      borderRadius: '10px',
+      marginTop: '30px'
     },
     text: 'Click Here'
   };
@@ -24,10 +25,10 @@ export class AppComponent {
   imgBtnConfig = {
     styles: {
       position: 'relative',
-      width: '50px',
-      height: '50px'
+      width: '100px',
+      height: '100px'
     },
-    src: './assets/user-shape.png'
+    src: './assets/conversation.png'
   };
 
   onClickEventReceived(event: string) {
